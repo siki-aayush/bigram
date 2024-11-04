@@ -10,6 +10,12 @@ This implementation calculates character-pair frequencies and uses these to dete
 
 In this more advanced implementation, a neural network is used to capture bigram relationships. The model calculates the negative log likelihood during training, which represents how poorly the model’s predictions match the expected probabilities. Through optimization, the model reduces this loss, improving its accuracy in character prediction. This implementation introduces key neural network techniques like loss calculation and gradient descent optimization.
 
+## Usage
+
+- Install the required packages using `poetry install` or `pip install -r requirements.txt`
+- Run jupyter notebook using `jupyter notebook`
+- Open the notebook and run the cells
+
 ## Frequency plot of bigram
 
 ![Frequency plot of bigram](./static/frequency_plot.png)
